@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ansh Sharma – Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ───── HEADER ───── -->
+  <header id="home">
+    <div class="header-inner">
+      <div class="header-text">
+        <p class="header-label">Hi, I'm</p>
+        <h1>Ansh<br><span class="accent">Sharma</span></h1>
+        <p class="tagline">BCA Student &nbsp;·&nbsp; Web Developer &nbsp;·&nbsp; AI Enthusiast</p>
+        <div class="header-cta">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+      <div class="header-visual">
+        <div class="avatar-ring">
+          <div class="avatar-initials">Ansh</div>
+        </div>
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ───── NAV ───── -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">AKS</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="this.parentElement.parentElement.classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ───── ABOUT ───── -->
+  <section id="about">
+    <div class="container">
+      <span class="section-tag">01 / About</span>
+      <h2 class="section-title">A little about me</h2>
+      <div class="about-grid">
+        <div class="about-bio">
+          <p>I'm a <strong>6th semester BCA student</strong> passionate about web development and building things that live on the internet. I love turning ideas into elegant, functional digital products using modern web technologies.</p>
+          <p>Currently exploring the intersection of <strong>Artificial Intelligence</strong> and web applications — always curious, always building.</p>
+          <div class="skills-row">
+            <span class="skill-chip">HTML &amp; CSS</span>
+            <span class="skill-chip">JavaScript</span>
+            <span class="skill-chip">Python</span>
+            <span class="skill-chip">Git &amp; GitHub</span>
+            <span class="skill-chip">AI / ML</span>
+          </div>
+        </div>
+        <div class="about-hobby">
+          <div class="hobby-card">
+            <div class="hobby-icon">🎮</div>
+            <h3>Gaming</h3>
+            <p>My go-to way to unwind and sharpen strategic thinking. From open-world adventures to competitive multiplayer — gaming fuels creativity and problem-solving.</p>
+            <p class="hobby-benefits-title">Benefits of Gaming:</p>
+            <ol class="hobby-benefits">
+              <li>Improves problem-solving and critical thinking skills</li>
+              <li>Enhances hand-eye coordination and reaction time</li>
+              <li>Builds teamwork and communication in multiplayer environments</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── PROJECTS ───── -->
+  <section id="projects">
+    <div class="container">
+      <span class="section-tag">02 / Projects</span>
+      <h2 class="section-title">Things I've built</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-number">01</div>
+          <div class="project-icon">🌐</div>
+          <h3>Portfolio Website</h3>
+          <p>A personal portfolio built from scratch using HTML and CSS. Showcases projects, skills, and contact info with a responsive, modern design.</p>
+          <div class="project-tags"><span>HTML</span><span>CSS</span></div>
+          <div class="project-links">
+            <a href="https://github.com/Dino0p" target="_blank" rel="noopener" class="link-btn">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-number">02</div>
+          <div class="project-icon">🧮</div>
+          <h3>Calculator</h3>
+          <p>A fully functional calculator app with a clean interface, supporting all basic arithmetic operations, built entirely with vanilla JavaScript.</p>
+          <div class="project-tags"><span>JavaScript</span><span>HTML</span><span>CSS</span></div>
+          <div class="project-links">
+            <a href="https://github.com/Dino0p" target="_blank" rel="noopener" class="link-btn">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-number">03</div>
+          <div class="project-icon">🎓</div>
+          <h3>Student Management System</h3>
+          <p>A Python-based system to manage student records — add, update, delete, and search entries — demonstrating core CRUD operations and OOP concepts.</p>
+          <div class="project-tags"><span>Python</span></div>
+          <div class="project-links">
+            <a href="https://github.com/Dino0p" target="_blank" rel="noopener" class="link-btn">GitHub ↗</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── CONTACT ───── -->
+  <section id="contact">
+    <div class="container">
+      <span class="section-tag">03 / Contact</span>
+      <h2 class="section-title">Let's connect</h2>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <p>Have a project idea or just want to say hi? Drop me a message — I'd love to hear from you.</p>
+          <a href="/cdn-cgi/l/email-protection#cdaca3bea5e3a6b8a0acbfbea5acbfa08daaa0aca4a1e3aea2a0" class="contact-email"><span class="__cf_email__" data-cfemail="74151a071c5a1f01191506071c150619341319151d185a171b19">[email&#160;protected]</span></a>
+        </div>
+        <form class="contact-form" onsubmit="handleSubmit(event)">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Ansh Sharma" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Hello! I'd like to chat about..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">Send Message →</button>
+          <p class="form-success" id="formSuccess">✓ Message sent! I'll be in touch soon.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── FOOTER ───── -->
+  <footer>
+    <div class="container footer-inner">
+      <p class="footer-copy">© 2026 Ansh Sharma</p>
+
+      <!-- 3.1 — Dynamic date & time -->
+      <p class="footer-datetime" id="footerClock">—</p>
+
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/ansh-kumar-sharma" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/Dino0p" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+  </footer>
+
+
+
+</body>
+<script src="script.js">
+
+</script>
+</html>
